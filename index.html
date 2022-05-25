@@ -14,22 +14,22 @@
     <main class="music-player">
         <section class="music-player__header">
             <button class="button button--back"></button>
-            <p class="music-player__status"></p>
+            <p class="music-player__status">Now Playing</p>
             <button class="button button--menu"></button>
         </section>
-        <figure class="music-player__image">
-            <img src="" alt=""/>
-        </figure>
+        <section class="music-player__image">
+            <figure class="image__container">
+                <img src="" alt=""/>
+            </figure>
+        </section>
         <section class="music-player__song">
-            <p class="song__title"></p>
-            <p class="song__artist"></p>
+            <p class="song__title">Alone</p>
+            <p class="song__artist">Marshmello</p>
             <div class="song__progress">
                 <div class="progress__bar progress__bar--complete"></div>
                 <div class="progress__bar progress__bar--current"></div>
-                <div class="progress__time">
-                    <span></span>
-                    <span></span>
-                </div>
+                <span class="progress__time progress__time--current">2:15</span>
+                <span class="progress__time progress__time--complete">4:33</span>
             </div>
         </section>
         <section class="music-player__controls">
