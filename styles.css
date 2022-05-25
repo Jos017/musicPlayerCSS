@@ -1,0 +1,18 @@
+:root {
+    --principal: #3988FF;
+    --secondary: #353C43;
+    --just-black: #000000;
+    --just-white: #FFFFFF;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    font-size: 1.6rem;
+}
