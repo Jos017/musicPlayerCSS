@@ -12,7 +12,7 @@
 </head>
 <body>
     <main class="music-player">
-        <section>
+        <section class="music-player__header">
             <button class="button button--back"></button>
             <p class="music-player__status"></p>
             <button class="button button--menu"></button>
@@ -23,10 +23,14 @@
         <section class="music-player__song">
             <p class="song__title"></p>
             <p class="song__artist"></p>
-        </section>
-        <section class="music-player__progress-bar">
-            <div class="progress-bar progress-bar__complete"></div>
-            <div class="progress-bar progress-bar__current"></div>
+            <div class="song__progress">
+                <div class="progress__bar progress__bar--complete"></div>
+                <div class="progress__bar progress__bar--current"></div>
+                <div class="progress__time">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
         </section>
         <section class="music-player__controls">
             <button class="button button--shuffle"></button>
